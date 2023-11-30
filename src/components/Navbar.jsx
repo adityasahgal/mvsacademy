@@ -10,20 +10,28 @@ const Navbar = () => {
     <div className=" bg-[#0e0e2c] h-24 max-w-[1240px] mx-auto px-4 justify-between text-white flex items-center ">
       <h1 className="w-full  text-3xl font-bold">MVS Academy™.</h1>
       <ul className=" hidden md:flex text-xl">
-        <a href="">
-          <li className="p-4">Home</li>
+        <a href="" className=" hover:scale-105 duration-300">
+          <li className="p-4 ">Home</li>
         </a>
-        <a href="">
+        <a href="" className=" hover:scale-105 duration-300">
           <li className="p-4">About</li>
         </a>
-        <a href="">
+        <a href="" className=" hover:scale-105 duration-300">
           <li className="p-4">Services</li>
         </a>
-        <a href="">
+        <a href="" className=" hover:scale-105 duration-300">
           <li className="p-4">Pricing</li>
         </a>
-        <a href="">
+        <a href="" className=" hover:scale-105 duration-300">
           <li className="p-4">Contact</li>
+        </a>
+        <a href="" className=" p-3 hover:scale-105 duration-300">
+          <button
+            type="button"
+            className=" pl-4 pr-4 pt-1 pb-1 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-xl  text-center "
+          >
+            Login
+          </button>
         </a>
       </ul>
       <div onClick={handleNav} className="relative md:hidden">
@@ -38,12 +46,22 @@ const Navbar = () => {
       >
         <h1 className="w-full  text-3xl font-bold m-4">MVS Academy™.</h1>
 
-        <ul className="m-4 uppercase ">
-          <li className="p- border-b border-b-gray-700">Home</li>
-          <li className="p- border-b border-b-gray-700">About</li>
-          <li className="p- border-b border-b-gray-700">Services</li>
-          <li className="p- border-b border-b-gray-700">Pricing</li>
-          <li className="p- border-b border-b-gray-700">Contact</li>
+        <ul className="m-4 uppercase   ">
+          <li className="p- border-b mx-auto my-2  hover:scale-105 duration-300 border-b-gray-700">
+            Home
+          </li>
+          <li className="p- border-b my-2  hover:scale-105 duration-300 border-b-gray-700">
+            About
+          </li>
+          <li className="p- border-b my-2 hover:scale-105 duration-300 border-b-gray-700">
+            Services
+          </li>
+          <li className="p- border-b my-2 hover:scale-105 duration-300 border-b-gray-700">
+            Pricing
+          </li>
+          <li className="p- border-b my-2  hover:scale-105 duration-300 border-b-gray-700">
+            Contact
+          </li>
         </ul>
       </div>
     </div>
