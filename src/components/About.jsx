@@ -10,8 +10,7 @@ const About = () => {
             Want tips & tricks to optimize your flow?
           </h1>
           <p className=" hover:scale-105 duration-300">
-            {" "}
-            sign up to our newsletter and stay up to date.{" "}
+            sign up to our newsletter and stay up to date.
           </p>
         </div>
         <div className="my-4">
@@ -30,7 +29,7 @@ const About = () => {
           </div>
 
           <p className=" hover:scale-105 duration-300">
-            Care about the protection of your data. Read our{" "}
+            Care about the protection of your data. Read our
             <span className="  text-[#00df16] ">privacy policy.</span>
           </p>
         </div>

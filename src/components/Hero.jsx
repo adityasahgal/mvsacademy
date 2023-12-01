@@ -1,5 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
 import skate from "./images/skate.png";
 import rollball from "./images/rollball_skate.png";
 
@@ -8,22 +7,16 @@ const Hero = () => {
     <div className=" text-white  justify-center ">
       <div className="grid md:grid-cols-2 gap-5">
         <div className=" max-w-[800px] h-screen w-full mt-[-96px] text-center flex flex-col md:items-center  justify-center">
-          <p className=" text-[#25942b] md:text-5xl sm:text-4xl text-3xl font-bold uppercase">
+          <p className=" text-[#25942b] md:text-5xl sm:text-3xl text-2xl font-bold uppercase">
             our safety is in our speed.
           </p>
-          <h1 className=" md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 ">
+          <h1 className=" md:text-7xl sm:text-5xl text-3xl font-bold md:py-6 ">
             Start Doing...
           </h1>
           <div className=" flex justify-center items-center ">
             <p className=" font-bold  md:text-6xl sm:text-5xl text-2xl pl-2">
-              It is our
+              It is our "LIFE.", "Sanctuary.", "Passion."
             </p>
-            <Typed
-              className=" md:pl-4 pl-2 font-bold uppercase  md:text-6xl sm:text-5xl text-2xl"
-              strings={["LIFE.", "Sanctuary.", "Passion."]}
-              typeSpeed={120}
-              backSpeed={140}
-            />
           </div>
           <p className=" md:text-3xl text-xl font-bold text-gray-600 p-3 ">
             Sometimes you just need to relax and know that everything is going
